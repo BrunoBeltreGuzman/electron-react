@@ -1,0 +1,10 @@
+
+#install
+npm install electron-packager --save-dev
+
+
+#Prepared
+npm run build
+
+#build Windows (Administrador)
+electron-packager . appname --platform=win32 --arch=x64 

@@ -3,3 +3,9 @@ node_modules
 
 ./build
 build
+
+./appname-win32-x64
+appname-win32-x64
+
+./dist
+dist

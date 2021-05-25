@@ -4,7 +4,7 @@ const path = require("path");
 function createWindow() {
        const window = new BrowserWindow({
               center: true,
-              width: 1000,
+              width: 600,
               height: 800,
               title: "Name App",
               icon: "public/img/favicon.png",
