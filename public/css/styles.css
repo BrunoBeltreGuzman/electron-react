@@ -1,0 +1,59 @@
+#nprogress .bar {
+       height: 2px;
+       background: #ff0000 !important;
+}
+
+#nprogress .spinner-icon {
+       border-top-color: #1cff60 !important;
+       border-left-color: #a8ff56 !important;
+}
+
+.logo {
+       width: 40px;
+       height: 40px;
+       border-radius: 10px;
+}
+
+.logo2 {
+       width: 40px;
+       height: 40px;
+       border-radius: 10px;
+}
+
+.text-logo {
+       margin: 3px;
+}
+
+.text-logo2 {
+       margin: 3px;
+}
+footer {
+       background-color: rgb(59, 59, 59);
+       color: white;
+}
+
+.socials {
+       width: 30px;
+       height: 30px;
+       margin: 10px;
+       border-radius: 10px;
+}
+
+.btn-avan {
+       background-color: rgb(29, 29, 29);
+       border-radius: 3px;
+}
+
+.navbar {
+       box-shadow: 1px 1px 3px rgb(197, 197, 197);
+}
+
+.btn-add {
+       background-color: rgb(255, 167, 36);
+       color: rgb(26, 26, 26);
+}
+
+.imagen-product {
+       width: 250px;
+       height: 250px;
+}
