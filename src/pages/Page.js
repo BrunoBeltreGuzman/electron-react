@@ -3,7 +3,7 @@ import Nav from "../components/nav/Nav";
 
 export default function Index() {
        return (
-              <div>
+              <div className="container">
                      <Nav></Nav>
                      <br />
                      <h1>Page</h1>

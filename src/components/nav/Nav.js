@@ -9,19 +9,58 @@ export default function Nav() {
               nprogress.start();
               nprogress.done();
        }, []);
-
-       return (
-              <div>
-                     <nav>
-                            <ul>
-                                   <li>
+       /*
+                            <li>
                                           <Link to="/">Index</Link>
                                    </li>
-                                   <li>
-                                          <Link to="/page">Page</Link>
-                                   </li>
-                            </ul>
+*/
+       return (
+              <div>
+                     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                            <div class="container">
+                                   <Link to="/" className="navbar-brand item">
+                                          App
+                                   </Link>
+                                   <button
+                                          className="navbar-toggler item"
+                                          type="button"
+                                          data-toggle="collapse"
+                                          data-target="#navbarNav"
+                                          aria-controls="navbarNav"
+                                          aria-expanded="false"
+                                          aria-label="Toggle navigation"
+                                   >
+                                          <span class="navbar-toggler-icon"></span>
+                                   </button>
+                                   <div
+                                          class="collapse navbar-collapse"
+                                          id="navbarNav"
+                                   >
+                                          <ul class="navbar-nav ml-auto">
+                                                 <li class="nav-item">
+                                                        <Link
+                                                               to="/"
+                                                               className="navbar-brand item"
+                                                        >
+                                                               Index
+                                                        </Link>
+                                                 </li>
+
+                                                 <li class="nav-item">
+                                                        <Link
+                                                               to="/page"
+                                                               className="navbar-brand item"
+                                                        >
+                                                               Page
+                                                        </Link>
+                                                 </li>
+                                          </ul>
+                                   </div>
+                            </div>
                      </nav>
+
+                     <br />
+                     <br />
               </div>
        );
 }

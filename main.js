@@ -1,11 +1,11 @@
 const { BrowserWindow, app } = require("electron");
 const path = require("path");
 
-const isDev = !app.isPackaged;
-
 function createWindow() {
        const window = new BrowserWindow({
               center: true,
+              width: 1000,
+              height: 800,
               title: "Name App",
               icon: "public/img/favicon.png",
               webPreferences: {
@@ -17,17 +17,6 @@ function createWindow() {
        });
        window.setMenu(null);
        window.loadFile("index.html");
-}
-
-if (isDev) {
-       require("electron-reload")(__dirname, {
-              electron: path.join(
-                     __dirname,
-                     "node_modules",
-                     ".bin",
-                     "electron"
-              ),
-       });
 }
 
 app.whenReady().then(createWindow);
